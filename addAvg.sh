@@ -10,6 +10,6 @@ do
 	fi
 	sum=$(($sum + $r));
 done
-avg=$(($sum / 5));
-echo $sum" "$avg;
+avg_result=$(($sum / 5));
+echo $sum" "$avg_result;
 
